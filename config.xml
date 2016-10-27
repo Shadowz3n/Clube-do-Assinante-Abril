@@ -33,7 +33,7 @@
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     
 	<plugin name="phonegap-plugin-push" spec="1.6.0">
-		<param name="SENDER_ID" value="188976841580" />
+		<param name="SENDER_ID" value="475862918379" />
 	</plugin>
     
     <icon src="icon.png" />

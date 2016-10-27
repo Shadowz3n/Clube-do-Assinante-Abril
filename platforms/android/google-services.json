@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "475862918379",
+    "project_id": "firebase-clube-do-assinante-ab"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475862918379:android:2e82a470055338fa",
+        "android_client_info": {
+          "package_name": "br.com.admancriativa.clubeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLaCjh5RTmi9MELIvI_aaX_WkytS8A5rc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

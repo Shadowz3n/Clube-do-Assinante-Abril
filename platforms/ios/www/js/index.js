@@ -19,7 +19,7 @@ document.addEventListener('deviceready', function(){
 	
 	//PushbotsPlugin.initialize("58121b824a9efaa27c8b4567");
 	
-	var Pushbots = PushbotsPlugin.initialize("58121b824a9efaa27c8b4567", {"android":{"sender_id":"188976841580"}});
+	var Pushbots = PushbotsPlugin.initialize("58121b824a9efaa27c8b4567");
 	
 	Pushbots.on("registered", function(token){
 		console.log("Registration Id:" + token);
