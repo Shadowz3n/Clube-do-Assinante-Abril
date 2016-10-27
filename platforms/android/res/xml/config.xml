@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="PushNotification">
+        <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
+    </feature>
+    <icon density="ldpi" src="www/img/icon.jpg" />
+    <icon density="mdpi" src="www/img/icon.jpg" />
+    <icon density="hdpi" src="www/img/icon.jpg" />
+    <icon density="xhdpi" src="www/img/icon.jpg" />
+    <icon density="xxhdpi" src="www/img/icon.jpg" />
+    <icon density="xxxhdpi" src="www/img/icon.jpg" />
+    <splash density="land-ldpi" src="www/img/icon.jpg" />
+    <splash density="land-mdpi" src="www/img/icon.jpg" />
+    <splash density="land-hdpi" src="www/img/icon.jpg" />
+    <splash density="land-xhdpi" src="www/img/icon.jpg" />
+    <splash density="land-xxhdpi" src="www/img/icon.jpg" />
+    <splash density="land-xxxhdpi" src="www/img/icon.jpg" />
+    <splash density="port-ldpi" src="www/img/icon.jpg" />
+    <splash density="port-mdpi" src="www/img/icon.jpg" />
+    <splash density="port-hdpi" src="www/img/icon.jpg" />
+    <splash density="port-xhdpi" src="www/img/icon.jpg" />
+    <splash density="port-xxhdpi" src="www/img/icon.jpg" />
+    <splash density="port-xxxhdpi" src="www/img/icon.jpg" />
+    <allow-intent href="market:*" />
+    <name>Clube do Assinante Abril</name>
+    <description>
+		Aplicativo do Clube do Assinante Abril
+    </description>
+    <author email="atendimento@admancriativa.com.br" href="https://www.admancriativa.com.br">
+        Adman Criativa
+    </author>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="gray" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <icon src="icon.png" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
