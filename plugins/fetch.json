@@ -176,5 +176,13 @@
         "variables": {
             "SENDER_ID": "244819750583"
         }
+    },
+    "pushbots-cordova-plugin": {
+        "source": {
+            "type": "registry",
+            "id": "pushbots-cordova-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

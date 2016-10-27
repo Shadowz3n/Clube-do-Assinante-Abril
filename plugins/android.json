@@ -67,6 +67,9 @@
         "phonegap-plugin-push": {
             "SENDER_ID": "244819750583",
             "PACKAGE_NAME": "br.com.admancriativa.clubeapp"
+        },
+        "pushbots-cordova-plugin": {
+            "PACKAGE_NAME": "br.com.admancriativa.clubeapp"
         }
     },
     "dependent_plugins": {

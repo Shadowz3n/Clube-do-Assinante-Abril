@@ -82,6 +82,8 @@
 		F68FEE6563E846A38C10C5CE /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2337510992F3473C853F0C02 /* libProtocolBuffers.a */; };
 		2A0E17EB6A4A442798B03111 /* libsqlite3.tbd in Resources */ = {isa = PBXBuildFile; fileRef = 273104427FDA49DC92986AE1 /* libsqlite3.tbd */; };
 		AB0508D2872C4B9AB44D2EED /* libz.tbd in Resources */ = {isa = PBXBuildFile; fileRef = 570A379AC6C34E96AEFCDA53 /* libz.tbd */; };
+		BC4B0C902D6C450AB35994D1 /* PushbotsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABE9D05454D4BA49FBC648D /* PushbotsPlugin.m */; };
+		6ED661502C5248239DD8D508 /* Pushbots.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC0D86F4FAF410FA67FC1E5 /* Pushbots.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +234,9 @@
 		3BED5FD15A3C42D79A0C0393 /* GoogleCloudMessaging.h */ = {isa = PBXFileReference; name = "GoogleCloudMessaging.h"; path = "phonegap-plugin-push/GCM/Headers/GoogleCloudMessaging.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		273104427FDA49DC92986AE1 /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "libsqlite3.tbd"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		570A379AC6C34E96AEFCDA53 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "libz.tbd"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7ABE9D05454D4BA49FBC648D /* PushbotsPlugin.m */ = {isa = PBXFileReference; name = "PushbotsPlugin.m"; path = "pushbots-cordova-plugin/PushbotsPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		C83056F8398449D9BE3B5641 /* PushbotsPlugin.h */ = {isa = PBXFileReference; name = "PushbotsPlugin.h"; path = "pushbots-cordova-plugin/PushbotsPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		DEC0D86F4FAF410FA67FC1E5 /* Pushbots.framework */ = {isa = PBXFileReference; name = "Pushbots.framework"; path = "Clube do Assinante Abril/Plugins/pushbots-cordova-plugin/Pushbots.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +282,7 @@
 				F68FEE6563E846A38C10C5CE /* libProtocolBuffers.a in Frameworks */,
 				2A0E17EB6A4A442798B03111 /* libsqlite3.tbd in Resources */,
 				AB0508D2872C4B9AB44D2EED /* libz.tbd in Resources */,
+				6ED661502C5248239DD8D508 /* Pushbots.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +391,7 @@
 				2337510992F3473C853F0C02 /* libProtocolBuffers.a */,
 				273104427FDA49DC92986AE1 /* libsqlite3.tbd */,
 				570A379AC6C34E96AEFCDA53 /* libz.tbd */,
+				DEC0D86F4FAF410FA67FC1E5 /* Pushbots.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -482,6 +489,8 @@
 				5BDB0DD334DE4A58B2FF8169 /* GCMReceiverDelegate.h */,
 				5BA81C9FD0CB4BD7B89FD170 /* GCMService.h */,
 				3BED5FD15A3C42D79A0C0393 /* GoogleCloudMessaging.h */,
+				7ABE9D05454D4BA49FBC648D /* PushbotsPlugin.m */,
+				C83056F8398449D9BE3B5641 /* PushbotsPlugin.h */,
 			);
 			name = Plugins;
 			path = "Clube do Assinante Abril/Plugins";
@@ -626,6 +635,7 @@
 				7DAAE801298F445F871AA732 /* CDVVibration.m in Sources */,
 				460F9A7C86D749CC985F6012 /* AppDelegate+notification.m in Sources */,
 				7FFE02E6B4A8414299EEDE56 /* PushPlugin.m in Sources */,
+				BC4B0C902D6C450AB35994D1 /* PushbotsPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,6 +698,10 @@
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Clube do Assinante Abril/Plugins/pushbots-cordova-plugin\"",
+				);
 			};
 			name = Debug;
 		};
@@ -735,6 +749,10 @@
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Clube do Assinante Abril/Plugins/pushbots-cordova-plugin\"",
 				);
 			};
 			name = Release;
@@ -792,6 +810,10 @@
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Clube do Assinante Abril/Plugins/pushbots-cordova-plugin\"",
+				);
 			};
 			name = Debug;
 		};
@@ -846,6 +868,10 @@
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
 					"\"$(SRCROOT)/Clube do Assinante Abril/Plugins/phonegap-plugin-push/GCM/Libraries\"",
+				);
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Clube do Assinante Abril/Plugins/pushbots-cordova-plugin\"",
 				);
 			};
 			name = Release;

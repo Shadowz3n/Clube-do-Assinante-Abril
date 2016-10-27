@@ -66,6 +66,9 @@
     <feature name="PushNotification">
         <param name="android-package" value="com.adobe.phonegap.push.PushPlugin" />
     </feature>
+    <feature name="PushbotsPlugin">
+        <param name="android-package" value="com.pushbots.plugin.PushbotsPlugin" />
+    </feature>
     <icon density="ldpi" src="www/img/icon.jpg" />
     <icon density="mdpi" src="www/img/icon.jpg" />
     <icon density="hdpi" src="www/img/icon.jpg" />

@@ -78,6 +78,9 @@
     <feature name="PushNotification">
         <param name="ios-package" value="PushPlugin" />
     </feature>
+    <feature name="PushbotsPlugin">
+        <param name="ios-package" value="PushbotsPlugin" />
+    </feature>
     <name>Clube do Assinante Abril</name>
     <description>
 		Aplicativo do Clube do Assinante Abril

@@ -99,6 +99,10 @@
                         {
                             "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushbotsPlugin\"><param name=\"ios-package\" value=\"PushbotsPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -200,6 +204,9 @@
         "phonegap-plugin-push": {
             "SENDER_ID": "244819750583",
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "pushbots-cordova-plugin": {
+            "PACKAGE_NAME": "br.com.admancriativa.clubeapp"
         }
     },
     "dependent_plugins": {},
@@ -771,6 +778,14 @@
             "clobbers": [
                 "PushNotification"
             ]
+        },
+        {
+            "file": "plugins/pushbots-cordova-plugin/www/pushbots.js",
+            "id": "pushbots-cordova-plugin.PushbotsPlugin",
+            "pluginId": "pushbots-cordova-plugin",
+            "clobbers": [
+                "PushbotsPlugin"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -795,6 +810,7 @@
         "cordova-plugin-statusbar": "2.1.3",
         "cordova-plugin-vibration": "2.1.2",
         "cordova-plugin-whitelist": "1.2.2",
-        "phonegap-plugin-push": "1.8.3"
+        "phonegap-plugin-push": "1.8.3",
+        "pushbots-cordova-plugin": "1.3.9"
     }
 }

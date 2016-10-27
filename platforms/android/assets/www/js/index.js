@@ -17,6 +17,20 @@ document.addEventListener('deviceready', function(){
 		$(".menu_content_right").toggleClass("menu_content_opened");
 	});
 	
+	//PushbotsPlugin.initialize("58121b824a9efaa27c8b4567");
+	
+	var Pushbots = PushbotsPlugin.initialize("58121b824a9efaa27c8b4567", {"android":{"sender_id":"188976841580"}});
+	
+	Pushbots.on("registered", function(token){
+		console.log("Registration Id:" + token);
+	});
+
+	Pushbots.getRegistrationId(function(token){
+		console.log("Registration Id:" + token);
+	});
+	
+	
+	/*
 	var push = PushNotification.init({
 		android: {
 			senderID:"188976841580"
@@ -51,6 +65,7 @@ document.addEventListener('deviceready', function(){
 		alert(e.message);
 		// e.message
 	});
+	*/
 
 	setTimeout(function(){
 	
