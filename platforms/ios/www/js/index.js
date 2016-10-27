@@ -19,7 +19,7 @@ document.addEventListener('deviceready', function(){
 	
 	var push = PushNotification.init({
 		android: {
-			senderID:"244819750583"
+			senderID:"188976841580"
 		},
 		browser: {
 			pushServiceURL: 'http://push.api.phonegap.com/v1/push'
